@@ -234,7 +234,7 @@ class BarcodeMask extends React.Component {
         </View>
         <View style={styles.maskOuter}>
           <View style={[styles.maskRow, this._applyMaskFrameStyle()]} />
-          <View style={[{ height }, styles.maskCenter]} >
+          <View style={[{ height }, styles.maskCenter, styles.maskRow]} >
             <View style={[this._applyMaskFrameStyle()]} />
             <View style={[ styles.maskInner, { width, height } ]} />
             <View style={[this._applyMaskFrameStyle()]} />
